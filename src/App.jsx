@@ -1,35 +1,33 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react';
+import Speakathon2023 from './Pages/Speakathon2023/Speakathon2023';
+import Home from './Pages/Home/Home';
+import CompetitionPage from './Pages/CompetitionPage/CompetitionPage';
+import CompetitionStructure from './Pages/CompetitionStructure/CompetitionStructure';
+import SeminarPage from './Pages/SeminarPage/SeminarPage';
+import EvaluationPage from './Pages/EvaluationPage/EvaluationPage';
+import MarketingStrategiesPage from './Pages/MarketingStrategiesPage/MarketingStrategiesPage';
+import VolunteerPage from './Pages/VolunteerPage/VolunteerPage';
+import PrizesPage from './Pages/PrizesPage/PrizesPage';
+import ContactPage from './Pages/ContactPage/ContactPage';
+import MarketingPage from './Pages/MarketingPage/MarketingPage';
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+    <div>
+      <Home></Home>
+      <Speakathon2023></Speakathon2023>
+      <CompetitionPage></CompetitionPage>
+      <CompetitionStructure></CompetitionStructure>
+      <SeminarPage></SeminarPage>
+      <EvaluationPage></EvaluationPage>
+      <MarketingStrategiesPage></MarketingStrategiesPage>
+      <VolunteerPage></VolunteerPage>
+      <PrizesPage></PrizesPage>
+      <ContactPage></ContactPage>
+      <MarketingPage></MarketingPage>
+      
+    </div>
+  );
+};
 
-export default App
+export default App;

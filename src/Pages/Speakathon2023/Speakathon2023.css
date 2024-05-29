@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.register-page {
+  padding: 20px;
+}
+
+.header-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.intro {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.intro h2 {
+  font-size: 28px;
+  margin: 10px 0;
+}
+
+.intro p {
+  font-size: 16px;
+  color: #666;
+}
+
+.register-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.register-button:hover {
+  background-color: #0056b3;
+}
+
+.why-attend {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.why-attend h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.why-attend p {
+  font-size: 16px;
+  color: #666;
+}
+
+.benefits {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.benefit {
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  width: 20%;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  border-top: 1px solid #e0e0e0;
+}
+
+footer p {
+  font-size: 16px;
+  color: #666;
+  margin: 0;
+}

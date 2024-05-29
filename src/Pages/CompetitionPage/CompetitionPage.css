@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .competition-page {
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .how-to-register {
+    margin: 20px 0;
+  }
+  
+  .how-to-register h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .steps {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+  }
+  
+  .step {
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    width: 30%;
+  }
+  
+  .step img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .step p {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+  .step span {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .eligibility-criteria {
+    margin: 20px 0;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  .eligibility-criteria h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .important-dates {
+    margin: 20px 0;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  .important-dates h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .important-dates ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .important-dates li {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  

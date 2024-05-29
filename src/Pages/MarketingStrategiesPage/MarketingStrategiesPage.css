@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .marketing-strategies-page {
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .social-media, .timeline, .media-coverage {
+    margin: 20px 0;
+  }
+  
+  .social-media h2, .timeline h2, .media-coverage h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .social-post, .media-post {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .social-post img, .media-post img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .social-post h3, .media-post h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .social-post p, .media-post p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .timeline ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .timeline li {
+    font-size: 16px;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .timeline li::before {
+    content: "●";
+    color: black;
+    margin-right: 10px;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #e0e0e0;
+    padding: 10px 0;
+  }
+  
+  footer nav {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  footer a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  footer a.active {
+    font-weight: bold;
+  }
+  

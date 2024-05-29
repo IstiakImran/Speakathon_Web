@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .seminar-page {
+    padding: 20px;
+  }
+  
+  .header-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  header {
+    position: relative;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  header p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .seminar-info {
+    text-align: left;
+    margin: 20px 0;
+  }
+  
+  .seminar-info h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .seminar-info p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .speaker-info {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .speaker-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .speaker-info h2 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .speaker-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .workshop-info {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .workshop-time {
+    display: flex;
+    align-items: center;
+  }
+  
+  .workshop-time img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .workshop-time p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .attend-button, .reminder-button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .attend-button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .attend-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .reminder-button {
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  .reminder-button:hover {
+    background-color: #e0e0e0;
+  }
+  

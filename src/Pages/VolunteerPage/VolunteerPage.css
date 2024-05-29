@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .volunteer-page {
+    padding: 20px;
+  }
+  
+  .header-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  main h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  main p {
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .roles {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .roles h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .role-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .role-button {
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .requirements {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .requirement {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .learn-more-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .learn-more-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .faq {
+    margin: 20px 0;
+  }
+  
+  .faq h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .faq-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .faq-item p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .faq-item button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .faq-answer {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+  
