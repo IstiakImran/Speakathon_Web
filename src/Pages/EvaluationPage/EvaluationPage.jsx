@@ -6,10 +6,7 @@ const placeholderImage = 'https://placehold.co/600x400';
 const EvaluationPage = () => {
   return (
     <div className="evaluation-page">
-      <header>
-        <img src={placeholderImage} alt="Evaluation Criteria" className="header-image" />
-        <button className="back-button">&larr;</button>
-      </header>
+
       <main>
         <section className="evaluation-criteria">
           <h1>Evaluation Criteria</h1>

@@ -4,11 +4,7 @@ import './CompetitionStructure.css';
 const CompetitionStructure = () => {
   return (
     <div className="finals-page">
-      <header>
-        <img src='https://placehold.co/600x400' alt="California State Finals" className="header-image" />
-        <h1>California State Finals</h1>
-        <p>Public Speaking Competition</p>
-      </header>
+     
       <main>
         <section className="competition-structure">
           <h2>Competition Structure</h2>

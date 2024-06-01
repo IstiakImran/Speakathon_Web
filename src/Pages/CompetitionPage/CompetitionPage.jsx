@@ -5,9 +5,6 @@ import './CompetitionPage.css';
 const CompetitionPage = () => {
   return (
     <div className="competition-page">
-      <header>
-        <h1>Competition</h1>
-      </header>
       <main>
         <section className="how-to-register">
           <h2>How to register</h2>

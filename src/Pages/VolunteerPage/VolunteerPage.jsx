@@ -12,28 +12,9 @@ const VolunteerPage = () => {
 
   return (
     <div className="volunteer-page">
-      <header>
-        <img src={placeholderImage} alt="Volunteer" className="header-image" />
-      </header>
+
       <main>
-        <h1>Volunteer</h1>
-        <p>Join the team that makes it all happen</p>
-        <section className="roles">
-          <h2>Roles</h2>
-          <div className="role-buttons">
-            <button className="role-button">Judge</button>
-            <button className="role-button">Facilitator</button>
-            <button className="role-button">Event Staff</button>
-          </div>
-        </section>
-        <section className="requirements">
-          <div className="requirement">
-            <p>What are the requirements for a facilitator?</p>
-            <a href="#">Sign up</a>
-            <p>For more information, visit our website</p>
-          </div>
-          <button className="learn-more-button">Learn More</button>
-        </section>
+
         <section className="faq">
           <h2>FAQ</h2>
           <div className="faq-item" onClick={() => toggleFaq(0)}>

@@ -1,35 +1,4 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-  }
-  
-  .finals-page {
-    padding: 20px;
-  }
-  
-  .header-image {
-    width: 100%;
-    height: auto;
-    margin-bottom: 20px;
-  }
-  
-  header {
-    text-align: center;
-    padding: 20px 0;
-    border-bottom: 1px solid #e0e0e0;
-  }
-  
-  header h1 {
-    margin: 0;
-    font-size: 24px;
-  }
-  
-  header p {
-    font-size: 16px;
-    color: #666;
-  }
-  
+
   .competition-structure {
     margin: 20px 0;
   }
@@ -117,8 +86,8 @@ body {
   }
   
   .register-button {
-    display: block;
-    width: 100%;
+   
+    
     padding: 10px;
     background-color: #007bff;
     color: white;
