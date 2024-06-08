@@ -1,23 +1,9 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-  }
+
   
   .volunteer-page {
     padding: 20px;
   }
-  
-  .header-image {
-    width: 100%;
-    height: auto;
-    margin-bottom: 20px;
-  }
-  
-  header {
-    text-align: center;
-    padding: 20px 0;
-  }
+
   
   main h1 {
     font-size: 24px;

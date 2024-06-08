@@ -1,24 +1,10 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-  }
+
   
   .marketing-strategies-page {
     padding: 20px;
   }
   
-  header {
-    text-align: center;
-    padding: 20px 0;
-    border-bottom: 1px solid #e0e0e0;
-  }
-  
-  header h1 {
-    margin: 0;
-    font-size: 24px;
-  }
-  
+
   .current-events, .social-media, .timeline, .media-coverage {
     margin: 20px 0;
   }
@@ -67,29 +53,5 @@ body {
     content: "●";
     color: black;
     margin-right: 10px;
-  }
-  
-  footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: #fff;
-    border-top: 1px solid #e0e0e0;
-    padding: 10px 0;
-  }
-  
-  footer nav {
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  footer a {
-    color: #007bff;
-    text-decoration: none;
-    font-size: 14px;
-  }
-  
-  footer a.active {
-    font-weight: bold;
   }
   

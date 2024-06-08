@@ -6,10 +6,12 @@ const placeholderImage = 'https://placehold.co/600x400';
 const SeminarPage = () => {
   return (
     <div className="seminar-page">
-      <header>
+
+      <div>
         <img src={placeholderImage} alt="Seminar" className="header-image" />
         <button className="close-button">&times;</button>
-      </header>
+
+      </div>
       <main>
         <section className="seminar-info">
           <h1>Seminar: The Power of Persuasion in Public Speaking</h1>

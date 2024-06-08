@@ -9,6 +9,8 @@ import PrizesPage from './Pages/PrizesPage/PrizesPage';
 import ContactPage from './Pages/ContactPage/ContactPage';
 import MarketingPage from './Pages/MarketingPage/MarketingPage';
 
+import './App.css';
+
 const App = () => {
   return (
     <div>
@@ -22,11 +24,11 @@ const App = () => {
 
       <CompetitionPage></CompetitionPage>
 
-      
-  
+
+
       <ContactPage></ContactPage>
-     
-      
+
+
     </div>
   );
 };

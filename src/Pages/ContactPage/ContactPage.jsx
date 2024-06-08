@@ -6,9 +6,9 @@ const placeholderImage = 'https://placehold.co/600x400';
 const ContactPage = () => {
   return (
     <div className="contact-page">
-      <header>
-        <h1>Contact</h1>
-      </header>
+
+      <h1>Contact</h1>
+
       <main>
         <section className="contact-info">
           <div className="contact-item">

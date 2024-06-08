@@ -1,18 +1,19 @@
 import React from 'react';
 import './Speakathon2023.css';
-import heroBanner from '/HeroBanner.png'
+import heroBanner1 from '/HeroBanner1.png'
+import heroBanner2 from '/HeroBanner2.png'
 
 
 const Speakathon2023 = () => {
   return (
     <div className="register-page">
       <header>
-      <img src={heroBanner} alt="Speakathon 2023" className="header-image" />
-             
+        <img src={heroBanner1} alt="Speakathon 2023" className="header-image" />
+        <img src={heroBanner2} alt="Speakathon 2023" className="header-image" />
       </header>
       <main>
         <section className="intro">
-        <h1>Speakathon</h1>
+          <h1>Speakathon</h1>
           <h2>Your Voice, Your Power</h2>
           <p>Join us for the 2023 Speakathon</p>
           <button className="register-button">Register now</button>
@@ -35,9 +36,6 @@ const Speakathon2023 = () => {
             </div>
           </div>
         </section>
-        <footer>
-          <p>&copy; 2023 Speakathon. All rights reserved.</p>
-        </footer>
       </main>
     </div>
   );
