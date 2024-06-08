@@ -8,16 +8,16 @@ const Speakathon2023 = () => {
   return (
     <div className="register-page">
       <header>
-        <img src={heroBanner1} alt="Speakathon 2023" className="header-image" />
         <img src={heroBanner2} alt="Speakathon 2023" className="header-image" />
-      </header>
-      <main>
+        <img src={heroBanner1} alt="Speakathon 2023" className="header-image" />
         <section className="intro">
-          <h1>Speakathon</h1>
-          <h2>Your Voice, Your Power</h2>
+          <h1>Your Voice, Your Power</h1>
           <p>Join us for the 2023 Speakathon</p>
           <button className="register-button">Register now</button>
         </section>
+      </header>
+      <main>
+
         <section className="why-attend">
           <h2>Why attend?</h2>
           <p>Get inspired by our speakers and learn from their experiences</p>

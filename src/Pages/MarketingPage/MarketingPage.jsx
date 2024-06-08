@@ -49,9 +49,7 @@ const MarketingPage = () => {
             <li><strong>Day of Event</strong> - Jun 11</li>
           </ul>
         </section>
-
       </main>
-
     </div>
   );
 };

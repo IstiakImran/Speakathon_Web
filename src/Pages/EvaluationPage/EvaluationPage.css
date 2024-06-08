@@ -1,54 +1,72 @@
+.evaluation-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
 
-  .evaluation-page {
-    padding: 20px;
-  }
-  
-  .back-button {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background: none;
-    border: none;
-    font-size: 24px;
-    cursor: pointer;
-  }
-  
-  .evaluation-criteria {
-    text-align: left;
-    margin: 20px 0;
-  }
-  
-  .evaluation-criteria h1 {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-  
-  .evaluation-criteria h2 {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  
-  .judge {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  
-  .judge-image {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 10px;
-  }
-  
-  .judge h3 {
-    margin: 0;
-    font-size: 16px;
-  }
-  
-  .judge p {
-    margin: 0;
-    font-size: 14px;
-    color: #666;
-  }
-  
+.evaluation-page h1 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 5px;
+  color: #fff;
+}
+
+.evaluation-page h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.evaluation-criteria {
+  margin: 20px 0;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.judge {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.judge:hover {
+  background: #05465F;
+}
+
+.judge-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.judge div {
+  flex: 1;
+}
+
+.judge h3 {
+  margin: 0;
+  font-size: 20px;
+  color: #fff;
+}
+
+.judge p {
+  margin: 0;
+  font-size: 16px;
+  color: #fff;
+}
+
+.back-button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #fff;
+}

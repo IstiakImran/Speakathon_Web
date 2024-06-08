@@ -4,7 +4,6 @@ import './CompetitionStructure.css';
 const CompetitionStructure = () => {
   return (
     <div className="finals-page">
-     
       <main>
         <section className="competition-structure">
           <h2>Competition Structure</h2>

@@ -21,14 +21,8 @@ const App = () => {
       <SeminarPage></SeminarPage>
       <PrizesPage></PrizesPage>
       <VolunteerPage></VolunteerPage>
-
       <CompetitionPage></CompetitionPage>
-
-
-
       <ContactPage></ContactPage>
-
-
     </div>
   );
 };

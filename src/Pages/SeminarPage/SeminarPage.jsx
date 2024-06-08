@@ -6,11 +6,9 @@ const placeholderImage = 'https://placehold.co/600x400';
 const SeminarPage = () => {
   return (
     <div className="seminar-page">
-
       <div>
         <img src={placeholderImage} alt="Seminar" className="header-image" />
         <button className="close-button">&times;</button>
-
       </div>
       <main>
         <section className="seminar-info">
